@@ -130,14 +130,20 @@ gauge for every angle printed in that file.
 ### 7. Assemble
 
 1. **Heat-form** each panel along its forming lines, so it already has the curve of the section.
+   Warming a panel with a heat gun just before you join it also makes it more flexible, so it bends
+   into place without fighting you.
 2. **Join the pieces of each strip end to end** (A-1 + A-2 …). The join ticks `A1/2-a`, `A1/2-b` line up.
 3. **Glue the strips side by side,** matching seam ticks: `A/B-3` on one panel meets `A/B-3` on the next.
 4. **Close the last seam** (between the suction strip and strip A).
 5. **Glue each base onto the ring** over its dash-dot outline. The base edges are already cut at the
    angle that sits flat on the ring.
 
-Contact cement works well: brush both edges, let it go tacky, then press them together in one go,
-starting from a match mark.
+**Glue: LePage Heavy Duty Contact Cement** works best. Follow the instructions on the container:
+brush both edges, wait until the cement is tacky, then press them together.
+
+> **You get one shot.** Contact cement bonds the moment the two surfaces touch, and they can't be
+> pulled apart and repositioned. Before the edges meet, line up the **outer (good) surfaces** so
+> they're flush, start from a match mark, and work along the seam.
 
 <p align="center">
   <img src="docs/build_contact_cement.jpg" width="32%" alt="Ring pieces laid out for contact cement">
