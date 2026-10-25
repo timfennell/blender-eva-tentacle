@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "eva_tentacle"
+version = "0.3.10"
+name = "EVA Tentacle Builder"
+tagline = "Pose foam costume tentacles and export flat EVA panel patterns"
+maintainer = "Tim Fennell"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Write pattern PDFs"
