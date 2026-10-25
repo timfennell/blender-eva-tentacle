@@ -4,7 +4,7 @@ flattened EVA panel patterns (with seam bevel angles) as PDFs."""
 bl_info = {
     'name': 'EVA Tentacle Builder',
     'author': 'Tim Fennell',
-    'version': (0, 3, 11),
+    'version': (0, 3, 12),
     'blender': (4, 2, 0),
     'location': 'View3D > Sidebar > Tentacle',
     'description': 'Pose foam tentacles and export flattened EVA panel patterns as PDFs',

@@ -97,7 +97,9 @@ You get:
 1. **Print at 100% / actual size.** Check the 50 mm box and the 1 inch line on the page.
 2. **Tape the sheets together:** each mat's sheets overlap by 18 mm. Lay them so the numbered
    **R** targets sit exactly on top of each other, then tape.
-3. **Lay the template on the foam,** with the solid outer frame on the edges of the mat or sheet.
+3. **Stick the template to the foam** with **Odif temporary adhesive spray** (most fabric stores
+   carry it), with the solid outer frame on the edges of the mat or sheet. Cut straight through the
+   paper. It peels off during or after gluing, and until then every piece keeps its label and marks.
 4. **Cut every piece,** reading the lines:
 
 | On the pattern | Meaning |

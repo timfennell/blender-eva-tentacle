@@ -905,7 +905,9 @@ def _instructions(doc, pat, meta, labels, pw, ph, mats):
             {'LETTER': 'US Letter', 'A4': 'A4', 'TABLOID': 'Tabloid', 'FULL': 'full-size'}[meta['page_mode']],
             OVERLAP),
         'Tape the sheets of one panel together with the numbered R targets exactly on top of each other.',
-        'Trace onto the foam (%s), and transfer the black match ticks as small nicks or pen marks.' % (
+        'Stick the paper template to the foam with Odif temporary adhesive spray (from fabric stores) and cut '
+        'through it (%s). The paper peels off during or after gluing, and until then every piece keeps its label. '
+        'Nick or mark the black match ticks.' % (
             'pattern is mirrored for the back face' if meta['mirror'] else 'pattern shows the good face'),
         'Heavy dotted edges get a bevel: tilt the blade from vertical by the bold number (the back face ends up narrower,'
         ' so the panels close into a crisp edge). Solid edges are cut straight down at 90\xb0 and glue into a'
@@ -1127,7 +1129,7 @@ def _add_mat_pages(doc, mats, owner, W_mat, H_mat, margin, page_mode, thickness,
         cv.text(cm * 0.5, top - 6, '%s%s %d of %d  \u2013  %.0f \xd7 %.0f mm EVA, %g mm thick  \u2013  %d pieces' % (
             prefix, kind.upper(), i + 1, len(mats), W_mat, H_mat, thickness, len(m['items'])), size=5.2, bold=True)
         y = _wrap(cv, cm * 0.5, top - 12, 'Pieces: ' + ', '.join(sorted(names)), min(cw - 75, 420), 2.6)
-        cv.text(cm * 0.5, y - 1, 'Tape this mat\'s sheets together on the R targets, lay it on the foam with the solid '
+        cv.text(cm * 0.5, y - 1, 'Tape this mat\'s sheets together on the R targets, stick it to the foam (Odif temporary spray) with the solid '
                 'frame on the mat edges, and cut. Dashed frame = usable area.', size=2.4, rgb=GREY)
         _scale_check(cv, cw - 62, ch - 14)
         polys.append(np.array([[cm, cm], [cm + W_mat, cm], [cm + W_mat, cm + H_mat], [cm, cm + H_mat]], float))
