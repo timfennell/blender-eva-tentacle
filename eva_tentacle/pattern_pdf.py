@@ -905,12 +905,19 @@ def _instructions(doc, pat, meta, labels, pw, ph, mats):
             {'LETTER': 'US Letter', 'A4': 'A4', 'TABLOID': 'Tabloid', 'FULL': 'full-size'}[meta['page_mode']],
             OVERLAP),
         'Tape the sheets of one panel together with the numbered R targets exactly on top of each other.',
-        'Trace onto the foam (%s), and transfer the blue match ticks as small nicks or pen marks.' % (
+        'Trace onto the foam (%s), and transfer the black match ticks as small nicks or pen marks.' % (
             'pattern is mirrored for the back face' if meta['mirror'] else 'pattern shows the good face'),
         'Heavy dotted edges get a bevel: tilt the blade from vertical by the bold number (the back face ends up narrower,'
         ' so the panels close into a crisp edge). Solid edges are cut straight down at 90\xb0 and glue into a'
         ' smooth curve.',
         'Heat-form each panel along its dotted facet lines before gluing so it already has the curve of the section.',
+        'Just before joining two panels, warm them with a heat gun: the foam becomes more flexible and bends into '
+        'place without fighting you.',
+        'Glue with LePage Heavy Duty Contact Cement, following the instructions on the container: brush both '
+        'edges and wait until the cement is tacky before joining.',
+        'YOU GET ONE SHOT: contact cement bonds the moment the surfaces touch and cannot be pulled apart and '
+        'repositioned. Line up the OUTER (good) surfaces flush before the edges meet, start at a match mark and '
+        'work along the seam.',
     ] + (meta.get('steps') or [
         'Join the pieces of each gore end to end first (A-1 + A-2 ...; join ticks a, b, c line up).',
         'Then glue the gores side by side, matching the seam ticks: A/B-3 meets A/B-3, B/C-5 meets B/C-5 ...',
@@ -943,7 +950,7 @@ def _instructions(doc, pat, meta, labels, pw, ph, mats):
     for g in mats:
         y -= 6
         pg.text(x, y, 'Layout on %g mm foam: %d \u00d7 %.0f \xd7 %.0f mm %s%s' % (
-            g['thickness'], len(g['mats']), g['w'], g['h'], 'mats' if g['name'] == 'mat' else 'sheets',
+            g['thickness'], len(g['mats']), g['w'], g['h'], 'mats' if g['name'].endswith('mat') else 'sheets',
             '  \u2013  printed full size on the following pages' if full else ''), size=3, bold=True)
         pg = _mat_thumbs(doc, pg, g['mats'], g['w'], g['h'], meta['margin'], x, y - 4, pw, ph, lambda p: p.label,
                          word=g['name'].rsplit(' ', 1)[-1])

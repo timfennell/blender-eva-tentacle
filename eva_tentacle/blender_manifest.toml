@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "eva_tentacle"
-version = "0.3.10"
+version = "0.3.11"
 name = "EVA Tentacle Builder"
 tagline = "Pose foam costume tentacles and export flat EVA panel patterns"
 maintainer = "Tim Fennell"
