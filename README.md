@@ -112,6 +112,13 @@ You get:
 
 ![Panel detail: bevel numbers, match marks and a bevel cross-section](docs/panel_detail.png)
 
+<p align="center">
+  <img src="docs/build_ring_panels_cut.jpg" width="45%" alt="Mount ring panels cut out with their templates still on">
+  <img src="docs/build_tentacle_pieces.jpg" width="53%" alt="A tentacle's pieces cut from the mats, labelled T1 A-1 to D-1">
+</p>
+<p align="center"><i>Ring panels M1–M8 and a tentacle's pieces, cut with the paper templates still on.
+Leave the template on until you glue, so every piece keeps its label.</i></p>
+
 **Bevels:** 30° means the blade leans 30° from upright, so the cut face makes 60° with the good face.
 "Back face narrower" means it leans in under the piece; "back face WIDER" means the other way.
 Print the **bevel gauges** page, glue it to card and cut the gauges out. Stand one on the foam's good
@@ -128,6 +135,19 @@ gauge for every angle printed in that file.
 4. **Close the last seam** (between the suction strip and strip A).
 5. **Glue each base onto the ring** over its dash-dot outline. The base edges are already cut at the
    angle that sits flat on the ring.
+
+Contact cement works well: brush both edges, let it go tacky, then press them together in one go,
+starting from a match mark.
+
+<p align="center">
+  <img src="docs/build_contact_cement.jpg" width="32%" alt="Ring pieces laid out for contact cement">
+  <img src="docs/build_tentacle_section.jpg" width="32%" alt="An assembled tentacle section holding its curve">
+  <img src="docs/build_heat_forming.jpg" width="32%" alt="Heat-forming the underside of a curled section">
+</p>
+<p align="center"><i>Ring pieces ready for cement; a glued tentacle section holding its curve with only
+square seams; heat-forming the underside of the curl.</i></p>
+
+![A finished tentacle section beside the mount ring](docs/build_tentacle_on_bench.jpg)
 
 ## Rendering
 
